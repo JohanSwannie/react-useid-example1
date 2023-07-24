@@ -12,3 +12,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+label {
+  margin: 0 1rem;
+}
